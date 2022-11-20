@@ -1,14 +1,13 @@
+import { ServerStylesheet } from '@/app/ServerStylesSheet'
 import { ReactNode } from 'react'
 
-type RootLayoutProps = {
-  children: ReactNode
-}
-
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head />
-      <body>{children}</body>
+      <body>
+        <ServerStylesheet>{children}</ServerStylesheet>
+      </body>
     </html>
   )
 }
