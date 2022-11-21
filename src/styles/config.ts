@@ -18,16 +18,33 @@ export const {
   },
   theme: {
     colors: {
-      red: 'red'
+      gray100: '#161616',
+      gray200: '#1C1C1C',
+      gray400: '#4D4D4D',
+      white: '#FFFFFF',
+      black: '#000000'
     },
-    space: {},
-    fontSizes: {},
-    fonts: {},
-    lineHeights: {},
+    space: {
+      xl: '8.2rem',
+      lg: '6.2rem',
+      md: '3.2rem',
+      sm: '2.4rem',
+      xs: '1.2rem'
+    },
+    fontSizes: {
+      lg: '8.2rem',
+      md: '3.6rem',
+      sm: '2.4rem',
+      xs: '1.8rem'
+    },
+    fonts: {
+      display: 'Roboto Mono, sans-serif'
+    },
     sizes: {},
-    borderWidths: {},
-    radii: {},
-    shadows: {},
+    borderWidths: {
+      1: '1',
+      2: '2'
+    },
     zIndices: {}
   },
   utils: {
