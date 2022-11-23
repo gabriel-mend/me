@@ -27,7 +27,7 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"],
-      "@/public*": ["./public/*"],
+      "@/public*": ["../public/*"],
       "@/tests/*": ["../tests/*"],
       "@/mocks/*": ["../__mocks__/*"]
     }
