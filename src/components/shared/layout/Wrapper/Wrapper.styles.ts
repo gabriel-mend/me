@@ -1,7 +1,24 @@
 import { css, styled } from '@/styles/config'
 
-const ContainerCSS = css({
-  size: '100%'
+const WrapperCSS = css({
+  height: 'auto',
+  marginInline: 'auto',
+
+  variants: {
+    size: {
+      full: {
+        width: '100%',
+        maxWidth: '100%'
+      },
+      default: {
+        width: '90%',
+        maxWidth: '121.6rem'
+      }
+    }
+  },
+  defaultVariants: {
+    size: 'default'
+  }
 })
 
-export const Container = styled('div', ContainerCSS)
+export const Wrapper = styled('div', WrapperCSS)
