@@ -2,7 +2,7 @@
 
 import React, { ReactNode } from 'react'
 import { useServerInsertedHTML } from 'next/navigation'
-import { getCssText } from '@/styles/config'
+import { getCssText, globalStyles } from '@/styles/config'
 
 export function ServerStylesheet({ children }: { children: ReactNode }) {
   useServerInsertedHTML(() => {
@@ -16,5 +16,6 @@ export function ServerStylesheet({ children }: { children: ReactNode }) {
     }
   })
 
+  globalStyles()
   return <>{children}</>
 }
