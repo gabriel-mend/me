@@ -117,6 +117,10 @@ export const globalStyles = globalCss({
   },
   body: {
     size: '100%',
-    overflowX: 'hidden'
+    overflowX: 'hidden',
+    fontFamily: '$display',
+
+    background: '$gray100',
+    color: '$white'
   }
 })
