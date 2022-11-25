@@ -35,7 +35,8 @@ export const {
       lg: '8.2rem',
       md: '3.6rem',
       sm: '2.4rem',
-      xs: '1.8rem'
+      xs: '1.8rem',
+      xxs: '1.6rem'
     },
     fonts: {
       display: 'Roboto Mono, sans-serif'
