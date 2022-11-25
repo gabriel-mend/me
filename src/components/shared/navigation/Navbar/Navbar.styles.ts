@@ -2,28 +2,60 @@ import { styled } from '@/styles/config'
 
 export const Container = styled('div', {
   width: '100%',
-  height: '100%',
-  py: '$md',
+  height: '110px',
 
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center'
+  position: 'sticky',
+  top: 0,
+
+  transition: 'all .36s',
+  borderBottom: '1px solid transparent',
+
+  '& > div': {
+    height: '100%',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center'
+  },
+
+  '&[data-scroll-active="true"]': {
+    height: 90,
+    background: 'rgba( 0, 0, 0, 0.35 )',
+    backdropFilter: 'blur( 13.5px )',
+    borderBottom: '1px solid $gray200'
+  }
 })
 
-export const Logo = styled('div', {})
+export const Logo = styled('div', {
+  width: 50,
+  height: 50,
+
+  position: 'relative',
+  transition: 'all .36s',
+
+  '&[data-scroll-active="true"]': {
+    width: 40,
+    height: 40
+  }
+})
 
 export const Nav = styled('nav', {
   display: 'flex',
   justifyContent: 'space-between',
-  alignItems: 'center'
+  alignItems: 'center',
+
+  '&[data-scroll-active="true"]': {
+    '& > div': {
+      fontSize: '$xxs'
+    }
+  }
 })
 
 export const NavLink = styled('div', {
   position: 'relative',
-  fontSize: '$sm',
+  fontSize: '$xs',
   opacity: '0.8',
 
-  transition: 'opacity .2s',
+  transition: 'all .36s',
 
   '& + &': {
     ml: 110
@@ -47,5 +79,19 @@ export const NavLink = styled('div', {
 
   '&:hover': {
     opacity: '1'
+  }
+})
+
+export const Translate = styled('select', {
+  fontSize: '$xxs',
+  color: '$white',
+
+  border: 'none',
+  background: 'transparent',
+
+  transition: 'all .36s',
+
+  '&[data-scroll-active="true"]': {
+    fontSize: '1.4rem'
   }
 })
