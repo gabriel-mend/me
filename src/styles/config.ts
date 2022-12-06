@@ -39,14 +39,17 @@ export const {
       xxs: '1.6rem'
     },
     fonts: {
-      display: 'Roboto Mono, sans-serif'
+      display: "'Roboto Mono', monospace"
     },
     sizes: {},
     borderWidths: {
       1: '1',
       2: '2'
     },
-    zIndices: {}
+    zIndices: {
+      base: '0',
+      surface: '1'
+    }
   },
   utils: {
     m: (value: ScaleValue<'space'> | string) => ({
@@ -119,7 +122,6 @@ export const globalStyles = globalCss({
   body: {
     size: '100%',
     overflowX: 'hidden',
-    fontFamily: '$display',
 
     background: '$gray100',
     color: '$white'

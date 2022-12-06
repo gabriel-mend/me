@@ -9,11 +9,11 @@ const robotoMono = Roboto_Mono({
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="pt-BR" className={robotoMono.className}>
+    <html lang="pt-BR">
       <head>
         <title>Me - Gabriel Medonça Pereira | Software Developer</title>
       </head>
-      <body>
+      <body style={{ fontFamily: robotoMono.style.fontFamily }}>
         <ServerStylesheet>{children}</ServerStylesheet>
       </body>
     </html>
