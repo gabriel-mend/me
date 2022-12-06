@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <Page>
       <Page.Navbar />
+      <HeroSection />
     </Page>
   )
 }

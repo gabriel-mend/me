@@ -4,11 +4,14 @@ export const Container = styled('div', {
   width: '100%',
   height: '110px',
 
-  position: 'sticky',
+  position: 'fixed',
   top: 0,
+  left: 0,
 
   transition: 'all .36s',
   borderBottom: '1px solid transparent',
+
+  zIndex: '$surface',
 
   '& > div': {
     height: '100%',
