@@ -1,7 +1,8 @@
 import { styled } from '@/styles/config'
 
 export const Container = styled('div', {
-  size: '100%'
+  size: '100%',
+  zIndex: '$surface'
 })
 
 export const Title = styled('p', {

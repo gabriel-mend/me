@@ -5,9 +5,13 @@ import { Skill } from '@/components/shared/layout/Skill/Skill'
 import { SiReact } from 'react-icons/si'
 import * as S from './SkillsSection.styles'
 
+import vectorImg from '@/public/images/Vector.svg'
+import Image from 'next/image'
+
 export function SkillsSection() {
   return (
     <S.Container>
+      <Image src={vectorImg} alt="asd" />
       <Wrapper>
         <Tag text="Skills" />
         <S.SkillsContainer>
