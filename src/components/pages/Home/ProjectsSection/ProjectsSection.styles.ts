@@ -16,5 +16,6 @@ export const Paragraph = styled('p', {
 })
 
 export const Projects = styled('div', {
-  borderBottom: '1px solid #ffffff'
+  borderBottom: '1px solid #ffffff',
+  mt: '$xl'
 })

@@ -3,7 +3,6 @@ import { styled } from '@/styles/config'
 export const Container = styled('div', {
   size: '100%',
   py: '$md',
-  mt: '$xl',
 
   display: 'flex',
   justifyContent: 'space-between',

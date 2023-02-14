@@ -30,6 +30,30 @@ export function ProjectsSection() {
               <Project.Link href="/">{'> see more'}</Project.Link>
             </Project.Content>
           </Project>
+          <Project>
+            <Project.Image src={projectImg} alt="Image" width={470} />
+            <Project.Content>
+              <Project.Tag>frontend</Project.Tag>
+              <Project.Title>title for the project</Project.Title>
+              <Project.Description>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </Project.Description>
+              <Project.Link href="/">{'> see more'}</Project.Link>
+            </Project.Content>
+          </Project>
+          <Project>
+            <Project.Image src={projectImg} alt="Image" width={470} />
+            <Project.Content>
+              <Project.Tag>frontend</Project.Tag>
+              <Project.Title>title for the project</Project.Title>
+              <Project.Description>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </Project.Description>
+              <Project.Link href="/">{'> see more'}</Project.Link>
+            </Project.Content>
+          </Project>
         </S.Projects>
       </S.Container>
     </Wrapper>

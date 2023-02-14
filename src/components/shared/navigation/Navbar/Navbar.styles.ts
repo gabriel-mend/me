@@ -11,7 +11,7 @@ export const Container = styled('div', {
   transition: 'all .36s',
   borderBottom: '1px solid transparent',
 
-  zIndex: '$surface',
+  zIndex: '9999',
 
   '& > div': {
     height: '100%',
