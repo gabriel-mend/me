@@ -1,9 +1,5 @@
-'use client'
-
 import * as S from './Skill.styles'
 
-import { SiReact } from 'react-icons/si'
-import { IconType } from 'react-icons'
 import { ReactNode } from 'react'
 
 type SkillProps = {

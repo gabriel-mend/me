@@ -1,8 +1,5 @@
-'use client'
-
 import { ReactNode } from 'react'
-import { Navbar } from '../../navigation'
-// import * as S from './Page.styles'
+import { Navbar } from '@/components/shared/navigation'
 
 type PageProps = {
   children: ReactNode

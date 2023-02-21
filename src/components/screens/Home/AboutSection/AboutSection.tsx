@@ -1,6 +1,4 @@
-'use client'
-
-import { Tag, Wrapper } from '@/components/shared/layout'
+import { Tag, Wrapper } from '@/components/shared/ui'
 import * as S from './AboutSection.styles'
 import meImg from '@/public/images/me.jpg'
 import Image from 'next/image'

@@ -1,11 +1,9 @@
-'use client'
-
 import Image from 'next/image'
 import Link from 'next/link'
 import * as S from './Navbar.styles'
 
 import logoImg from '@/public/icons/origami-icon.svg'
-import { Wrapper } from '../../layout'
+import { Wrapper } from '../../ui'
 import { NavLink } from './NavLink'
 
 import { useNavbarAnimation } from './useNavbarAnimation'

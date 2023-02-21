@@ -1,6 +1,4 @@
-'use client'
-
-import { Wrapper } from '@/components/shared/layout'
+import { Wrapper } from '@/components/shared/ui'
 import Image from 'next/image'
 import * as S from './HeroSection.styles'
 

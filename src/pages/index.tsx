@@ -1,19 +1,14 @@
-import {
-  AboutSection,
-  HeroSection,
-  ProjectsSection
-} from '@/components/pages/Home'
-import { SkillsSection } from '@/components/pages/Home/SkillsSection/SkillsSection'
-import { Page } from '@/components/shared/layout'
+import * as Landing from '@/components/screens/Home'
+import { Page } from '@/components/shared/ui'
 
 export default function Home() {
   return (
     <Page>
       <Page.Navbar />
-      <HeroSection />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectsSection />
+      <Landing.HeroSection />
+      <Landing.AboutSection />
+      <Landing.SkillsSection />
+      <Landing.ProjectsSection />
     </Page>
   )
 }

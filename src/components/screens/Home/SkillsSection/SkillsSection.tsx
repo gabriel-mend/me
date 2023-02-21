@@ -1,7 +1,4 @@
-'use client'
-
-import { Tag, Wrapper } from '@/components/shared/layout'
-import { Skill } from '@/components/shared/layout/Skill/Skill'
+import { Tag, Wrapper, Skill } from '@/components/shared/ui'
 import { SiReact } from 'react-icons/si'
 import * as S from './SkillsSection.styles'
 
