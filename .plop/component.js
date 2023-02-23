@@ -21,9 +21,9 @@ module.exports = plop => {
         type: 'list',
         name: 'pageComponent',
         message: 'What is the page?',
-        choices: getDirectories(path.resolve(__dirname, '../src/components/pages')),
+        choices: getDirectories(path.resolve(__dirname, '../src/components/screens')),
         when: (answer) => {
-          return answer.componentDivision === 'pages'
+          return answer.componentDivision === 'screens'
         }
       },
       {
@@ -61,8 +61,8 @@ module.exports = plop => {
         }
       ]
 
-      const actions = answers.componentDivision === 'pages' 
-        ? getActionsByComponentPathname(`pages/{{pageComponent}}`) 
+      const actions = answers.componentDivision === 'screens' 
+        ? getActionsByComponentPathname(`screens/{{pageComponent}}`) 
         : getActionsByComponentPathname(`shared/{{sharedComponent}}`)
 
 
