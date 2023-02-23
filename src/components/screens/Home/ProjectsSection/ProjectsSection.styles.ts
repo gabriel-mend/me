@@ -1,3 +1,4 @@
+import { Button } from '@/components/shared/forms'
 import { styled } from '@/styles/config'
 
 export const Container = styled('div', {
@@ -18,4 +19,11 @@ export const Paragraph = styled('p', {
 export const Projects = styled('div', {
   borderBottom: '1px solid #ffffff',
   mt: '$xl'
+})
+
+export const GithubButton = styled('div', {
+  mt: '$xl',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center'
 })

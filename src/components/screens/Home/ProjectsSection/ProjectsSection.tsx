@@ -2,6 +2,9 @@ import { Tag, Wrapper, Project } from '@/components/shared/ui'
 import * as S from './ProjectsSection.styles'
 
 import projectImg from '@/public/images/project-img.png'
+import { Button } from '@/components/shared/forms'
+import Link from 'next/link'
+import { SiGithub } from 'react-icons/si'
 
 export function ProjectsSection() {
   return (
@@ -52,6 +55,14 @@ export function ProjectsSection() {
             </Project.Content>
           </Project>
         </S.Projects>
+        <S.GithubButton>
+          <Button>
+            <Link href="https://github.com/gabriel-mend/me">more projects</Link>
+            <Button.Icon>
+              <SiGithub />
+            </Button.Icon>
+          </Button>
+        </S.GithubButton>
       </S.Container>
     </Wrapper>
   )
