@@ -9,6 +9,7 @@ export default function Home() {
       <Landing.AboutSection />
       <Landing.SkillsSection />
       <Landing.ProjectsSection />
+      <Page.Footer />
     </Page>
   )
 }

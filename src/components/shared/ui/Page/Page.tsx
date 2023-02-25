@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import { Navbar } from '@/components/shared/navigation'
+import { Footer, Navbar } from '@/components/shared/navigation'
 
 type PageProps = {
   children: ReactNode
@@ -10,3 +10,4 @@ export function Page({ children }: PageProps) {
 }
 
 Page.Navbar = Navbar
+Page.Footer = Footer
