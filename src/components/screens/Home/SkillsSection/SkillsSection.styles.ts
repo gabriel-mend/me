@@ -25,5 +25,9 @@ export const SkillsContainer = styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
   gap: '$md',
-  zIndex: 9
+  zIndex: 9,
+
+  '@bp3': {
+    gridTemplateColumns: '1fr'
+  }
 })

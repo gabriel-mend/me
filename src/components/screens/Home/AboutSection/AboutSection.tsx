@@ -9,8 +9,7 @@ export function AboutSection() {
       <S.Container>
         <S.Column
           css={{
-            $$width: '60%',
-            paddingRight: '4rem'
+            $$width: '60%'
           }}
         >
           <Tag text="About" />

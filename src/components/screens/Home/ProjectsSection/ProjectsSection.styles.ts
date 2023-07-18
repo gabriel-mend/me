@@ -1,4 +1,3 @@
-import { Button } from '@/components/shared/forms'
 import { styled } from '@/styles/config'
 
 export const Container = styled('div', {
@@ -8,7 +7,12 @@ export const Container = styled('div', {
 
 export const Header = styled('div', {
   display: 'flex',
-  justifyContent: 'space-between'
+  justifyContent: 'space-between',
+
+  '@bp3': {
+    gap: '3rem',
+    flexDirection: 'column'
+  }
 })
 
 export const Paragraph = styled('p', {

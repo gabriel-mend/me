@@ -13,6 +13,10 @@ export const Container = styled('main', {
 
     display: 'flex',
     alignItems: 'center'
+  },
+
+  '@bp3': {
+    height: '70vh'
   }
 })
 
@@ -23,6 +27,10 @@ export const Title = styled('h1', {
   '& > span': {
     px: '2rem',
     backgroundColor: '$gray200'
+  },
+
+  '@bp3': {
+    fontSize: '$md'
   }
 })
 

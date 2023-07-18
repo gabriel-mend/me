@@ -14,18 +14,41 @@ export const Container = styled('div', {
     fontSize: '$sm',
     textDecoration: 'underline',
     color: '$white'
+  },
+
+  '@bp3': {
+    gap: '4rem',
+    flexDirection: 'column',
+
+    '& > img': {
+      width: '100%',
+      objectFit: 'cover',
+      height: '18rem'
+    },
+
+    '& a': {
+      fontSize: '$xs'
+    }
   }
 })
 
 export const Title = styled('h2', {
   my: '$xs',
   fontSize: '$md',
-  color: '$white '
+  color: '$white ',
+
+  '@bp3': {
+    fontSize: '$sm'
+  }
 })
 
 export const Description = styled('p', {
   fontSize: '$sm',
-  mb: '$sm'
+  mb: '$sm',
+
+  '@bp3': {
+    fontSize: '$xs'
+  }
 })
 
 export const Content = styled('div', {

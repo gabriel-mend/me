@@ -50,6 +50,10 @@ export const Nav = styled('nav', {
     '& > div': {
       fontSize: '$xxs'
     }
+  },
+
+  '@bp3': {
+    display: 'none'
   }
 })
 
