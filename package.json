@@ -18,7 +18,10 @@
     "next": "^13.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.7.1",
+    "react-particles": "^2.12.2",
+    "tsparticles-engine": "^2.12.0",
+    "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",

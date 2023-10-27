@@ -6,7 +6,9 @@ export const Container = styled('main', {
   backgroundImage: 'url(./images/Vector.svg)',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'right top',
-
+  '& > #tsparticles': {
+    width: '0 !important'
+  },
   '& > div': {
     height: '100%',
     position: 'relative',

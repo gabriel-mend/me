@@ -25,10 +25,10 @@ export function Navbar() {
           <NavLink href="#contact">contact</NavLink>
         </S.Nav>
 
-        <S.Translate data-scroll-active={isScroll}>
+        {/* <S.Translate data-scroll-active={isScroll}>
           <option value="en">EN</option>
           <option value="pt">PT</option>
-        </S.Translate>
+        </S.Translate> */}
       </Wrapper>
     </S.Container>
   )

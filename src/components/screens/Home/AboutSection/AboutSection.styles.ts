@@ -25,7 +25,7 @@ export const Column = styled('div', {
   width: '$$width',
   height: '100%',
 
-  '@bp3': {
+  '@bp4': {
     width: '100%',
 
     '& > img': {
