@@ -24,19 +24,21 @@ export function HeroSection() {
   return (
     <S.Container>
       <Wrapper>
-        <S.Title>
-          Hello, i am
-          <br /> <span>Gabriel</span>, software <br /> developer {`</>`}
-        </S.Title>
-        <S.ScrollDown>
-          <p>scroll down</p>
-          <Image
-            src={arrowDownIcon}
-            alt={'seta para baixo'}
-            width={64}
-            height={64}
-          />
-        </S.ScrollDown>
+        <S.Content>
+          <S.Title>
+            Hello, i am
+            <br /> <span>Gabriel</span>, software <br /> developer {`</>`}
+          </S.Title>
+          <S.ScrollDown>
+            <p>scroll down</p>
+            <Image
+              src={arrowDownIcon}
+              alt={'seta para baixo'}
+              width={64}
+              height={64}
+            />
+          </S.ScrollDown>
+        </S.Content>
         <Particles
           id="tsparticles"
           init={particlesInit}

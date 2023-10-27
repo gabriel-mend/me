@@ -50,3 +50,7 @@ export const ScrollDown = styled('div', {
     fontSize: '$xxs'
   }
 })
+
+export const Content = styled('div', {
+  zIndex: 999
+})

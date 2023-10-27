@@ -5,6 +5,7 @@ export const Container = styled('div', {
   padding: '7.2rem 0 3.2rem',
 
   position: 'relative',
+  zIndex: 999,
 
   display: 'flex',
   flexDirection: 'column',

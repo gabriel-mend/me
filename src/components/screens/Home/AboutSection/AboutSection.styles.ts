@@ -1,6 +1,7 @@
+import { Wrapper } from '@/components/shared/ui'
 import { styled } from '@/styles/config'
 
-export const Container = styled('div', {
+export const Container = styled(Wrapper, {
   size: '100%',
   display: 'flex',
   py: '4rem',
@@ -9,6 +10,14 @@ export const Container = styled('div', {
   '@bp3': {
     flexDirection: 'column'
   }
+})
+
+export const WrapperCustom = styled('div', {
+  width: '100%',
+  background: '$gray200',
+  opacity: 0.9,
+  zIndex: 999,
+  position: 'relative'
 })
 
 export const Paragraph = styled('p', {

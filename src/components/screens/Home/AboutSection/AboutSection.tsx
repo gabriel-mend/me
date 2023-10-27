@@ -5,25 +5,39 @@ import Image from 'next/image'
 
 export function AboutSection() {
   return (
-    <Wrapper>
+    <S.WrapperCustom>
       <S.Container>
         <S.Column
           css={{
             $$width: '60%'
           }}
         >
-          <Tag text="About" />
+          <Tag text="Sobre mim" />
           <S.Paragraph>
-            <q>
-              O aprendizado é contínuo, e o próximo nível nunca será o último
-            </q>
+            Desenvolvendo progamas desde os 15 anos, com muito amor a essa
+            profissão. Comecei progamando em python aprendendo algoritmos e
+            lógica da programação. Alguns anos depois estudando html/css e
+            javascript consegui minha primeira vaga para trabalhar com wordpress
+            e reactjs na criação de blogs, landingpages e sistemas. Nela
+            consegui aprender sobre o fluxo das aplicações, regras de negócios e
+            fazer o layout do figma para o frontend.
+            <br />
+            <br /> Com o passar do tempo fui para outra vaga onde pude evoluir
+            muito profissionalmente,{' '}
+            <strong>
+              aprendendo sobre tomada decisões, liderança de equipe,
+              metodologias ágeis (Scrum, Kanban), comucação efetiva, regras de
+              négocios e muitos mais.
+            </strong>{' '}
             <br />
             <br />
-            Olá, meu nome é Gabriel Mendonça Pereira. Programando desde meus 15
-            anos com amor por essa área, e hoje com uma imensa vontade de
-            compartilhar o que eu estou aprendendo e acabar ajudando alguém
-            assim como a programação me ajudou.🚀 Buscando sempre aprimorar e
-            aprender nas tecnologias mais utilizadas do mercado.
+            Também evoluindo tecnicamente com as tecnologias como:
+            <br />
+            <strong>
+              Nextjs, Reactjs, React Native, Angular, Typescript, Docker,
+              Kubernetes, Deploy com CI, Strapi (CMS), Java, Nodejs, UI/UX,
+              Figma.
+            </strong>
           </S.Paragraph>
         </S.Column>
         <S.Column
@@ -38,6 +52,6 @@ export function AboutSection() {
           />
         </S.Column>
       </S.Container>
-    </Wrapper>
+    </S.WrapperCustom>
   )
 }
