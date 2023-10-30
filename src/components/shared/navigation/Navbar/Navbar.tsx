@@ -20,9 +20,9 @@ export function Navbar() {
         </S.Logo>
 
         <S.Nav data-scroll-active={isScroll}>
-          <NavLink href="#about">about</NavLink>
-          <NavLink href="#projects">projects</NavLink>
-          <NavLink href="#contact">contact</NavLink>
+          <NavLink href="#about">sobre</NavLink>
+          <NavLink href="#projects">projetos</NavLink>
+          <NavLink href="#contact">contato</NavLink>
         </S.Nav>
 
         {/* <S.Translate data-scroll-active={isScroll}>

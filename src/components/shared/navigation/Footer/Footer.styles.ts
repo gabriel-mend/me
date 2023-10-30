@@ -11,6 +11,7 @@ export const Container = styled('div', {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
+  opacity: 0.9,
 
   background: 'url("./images/footer-vector.svg"), $gray200',
   backgroundPosition: 'bottom left',

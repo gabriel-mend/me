@@ -1,6 +1,6 @@
-import { Tag, Wrapper } from '@/components/shared/ui'
+import { Tag } from '@/components/shared/ui'
 import * as S from './AboutSection.styles'
-import meImg from '@/public/images/me.jpg'
+import meImg from '@/public/images/file.png'
 import Image from 'next/image'
 
 export function AboutSection() {
@@ -48,7 +48,9 @@ export function AboutSection() {
           <Image
             src={meImg}
             alt="Foto do Gabriel Mendonça Pereira"
-            width={500}
+            width={400}
+            height={500}
+            className="me-image"
           />
         </S.Column>
       </S.Container>

@@ -11,7 +11,7 @@ export function ProjectsSection() {
     <Wrapper>
       <S.Container>
         <S.Header>
-          <Tag text="Projects" />
+          <Tag text="Projetos" />
           <S.Paragraph>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
@@ -57,7 +57,9 @@ export function ProjectsSection() {
         </S.Projects>
         <S.GithubButton>
           <Button>
-            <Link href="https://github.com/gabriel-mend/me">more projects</Link>
+            <Link href="https://github.com/gabriel-mend" target="_blank">
+              Mais projetos
+            </Link>
             <Button.Icon>
               <SiGithub />
             </Button.Icon>

@@ -14,10 +14,10 @@ export const Container = styled(Wrapper, {
 
 export const WrapperCustom = styled('div', {
   width: '100%',
-  background: '$gray200',
-  opacity: 0.9,
+  background: 'rgba(255, 255, 255,0.7)',
   zIndex: 999,
-  position: 'relative'
+  position: 'relative',
+  color: '$gray100'
 })
 
 export const Paragraph = styled('p', {
@@ -33,6 +33,11 @@ export const Paragraph = styled('p', {
 export const Column = styled('div', {
   width: '$$width',
   height: '100%',
+
+  '& > img': {
+    objectFit: 'cover',
+    borderRadius: 4
+  },
 
   '@bp4': {
     width: '100%',

@@ -26,7 +26,7 @@ export function HeroSection() {
       <Wrapper>
         <S.Content>
           <S.Title>
-            Hello, i am
+            Olá, eu sou
             <br /> <span>Gabriel</span>, software <br /> developer {`</>`}
           </S.Title>
           <S.ScrollDown>

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { SiGithub, SiInstagram, SiLinkedin } from 'react-icons/si'
 import * as S from './Footer.styles'
