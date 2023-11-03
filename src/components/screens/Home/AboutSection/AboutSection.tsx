@@ -2,8 +2,10 @@ import { Tag } from '@/components/shared/ui'
 import * as S from './AboutSection.styles'
 import meImg from '@/public/images/file.png'
 import Image from 'next/image'
+import { useInView } from 'react-intersection-observer'
 
 export function AboutSection() {
+  const { ref, inView } = useInView({ triggerOnce: true })
   return (
     <S.WrapperCustom>
       <S.Container>
@@ -13,7 +15,7 @@ export function AboutSection() {
           }}
         >
           <Tag text="Sobre mim" />
-          <S.Paragraph>
+          <S.Paragraph ref={ref} isVisible={inView}>
             Desenvolvendo progamas desde os 15 anos, com muito amor a essa
             profissão. Comecei progamando em python aprendendo algoritmos e
             lógica da programação. Alguns anos depois estudando html/css e

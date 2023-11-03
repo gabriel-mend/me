@@ -14,19 +14,33 @@ export const Container = styled(Wrapper, {
 
 export const WrapperCustom = styled('div', {
   width: '100%',
-  background: 'rgba(255, 255, 255,0.7)',
+  background: 'rgba(0, 0, 0,0.7)',
   zIndex: 999,
   position: 'relative',
-  color: '$gray100'
+  color: '$white'
 })
 
 export const Paragraph = styled('p', {
   fontSize: '$xs',
   my: '3rem',
+  transition: 'all 0.7s',
 
   '& > q': {
     fontSize: '$md',
     fontWeight: 'bold'
+  },
+
+  variants: {
+    isVisible: {
+      true: {
+        opacity: 1,
+        transform: 'translatex(0px)'
+      },
+      false: {
+        opacity: 0,
+        transform: 'translatex(-20px)'
+      }
+    }
   }
 })
 
