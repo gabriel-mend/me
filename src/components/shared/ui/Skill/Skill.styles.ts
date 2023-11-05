@@ -23,7 +23,7 @@ export const SkillProgessBar = styled('div', {
 })
 
 export const SkillProgressControl = styled('div', {
-  width: '$$width',
+  width: 0,
   height: '100%',
   px: '$xs',
 
@@ -31,7 +31,16 @@ export const SkillProgressControl = styled('div', {
 
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'space-between'
+  justifyContent: 'space-between',
+  transition: 'all 1s',
+
+  variants: {
+    isVisible: {
+      true: {
+        width: '$$width'
+      }
+    }
+  }
 })
 
 export const SkillProgressCount = styled('p', {

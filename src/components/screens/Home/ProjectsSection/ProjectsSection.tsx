@@ -13,8 +13,8 @@ export function ProjectsSection() {
         <S.Header>
           <Tag text="Projetos" />
           <S.Paragraph>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Descubra projetos que representam minha dedicação e habilidades,
+            cada um contando uma história única de realização.
           </S.Paragraph>
         </S.Header>
         <S.Projects>

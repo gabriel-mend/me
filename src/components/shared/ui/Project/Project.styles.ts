@@ -7,8 +7,10 @@ export const Container = styled('div', {
   display: 'flex',
   justifyContent: 'space-between',
   alignItems: 'flex-start',
+  opacity: 0,
 
   borderTop: '1px solid #ffffff',
+  transition: 'all 1.5s',
 
   '& a': {
     fontSize: '$sm',
@@ -28,6 +30,13 @@ export const Container = styled('div', {
 
     '& a': {
       fontSize: '$xs'
+    }
+  },
+  variants: {
+    isVisible: {
+      true: {
+        opacity: 1
+      }
     }
   }
 })
