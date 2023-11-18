@@ -1,35 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a id="readme-top"></a>
 
-## Getting Started
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img width="600" src="https://media.licdn.com/dms/image/C4D22AQHzjSli4OoZFA/feedshare-shrink_800/0/1668806003277?e=1703116800&v=beta&t=5MPyDkvCfC4DjVDDLOv5cQwM788WsqFUV_JsK2skOtI" alt="Logo">
+  </a>
 
-First, run the development server:
+  <h1 align="center">Me - meu portfólio</h3>
+
+  <p align="center">
+    Uma vitrine digital que reflete minha jornada e habilidades de maneira envolvente e acessível
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explorar documentação »</strong></a>
+    <br />
+    <br />
+    <a href="https://me-gabriel.vercel.app">Visitar site</a>
+    ·
+    <a href="https://github.com/gabriel-mend/me/issues">Reportar Bug</a>
+    ·
+    <a href="https://github.com/gabriel-mend/me/issues">Solicitar Feature</a>
+  </p>
+</div>
+
+
+## 📚 Sobre o projeto
+
+O objetivo desse projeto e colocar em prática tudo que aprendi e vivenciei desde quando comecei na programação, utilizando as techs mais recentes que eu tenho domínio. E que eu consiga documentar todo o processo de desenvolvimento dessa aplicação.🚀
+
+## 🛠 Tecnologias utilizadas
+* [React JS](https://pt-br.reactjs.org)
+* [Nextjs](https://nextjs.org/)
+* [Typescript](https://www.typescriptlang.org/)
+* [Stitches](https://stitches.dev/)
+* [Vitest](https://vitest.dev/)
+
+### 🚀 Como executar o projeto
+
+- Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+- Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+- Instale **[Yarn](https://yarnpkg.com/)** para ter uma melhor experiência quando for executar a aplicação.
+
+### :octocat: Faça o clone do projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório
+$ git clone <https://github.com/gabriel-mend/me.git>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd me
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 💻 Rodando a aplicação web
+```bash
+# Vá para a pasta do projeto
+$ cd me
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Instale as dependências
+$ yarn install
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# Execute a aplicação 
+$ yarn dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# O aplicação inciará (geralmente) na porta:3000 - acesse <http://localhost:3000>
+```
 
-## Learn More
+## 👨🏻‍🚀 Sobre mim
+"Conecte-se comigo no LinkedIn para explorar minha trajetória profissional e colaborar em projetos incríveis."
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/gabriel-mendonca-pereira/"><img src="https://avatars0.githubusercontent.com/u/49095200?s=460&u=27a77c43fff5eab61be02a3fedfd7db554145981&v=4" width="100px;" alt="Kent C. Dodds"/><br /><sub><b>Gabriel Mendonça Pereira</b></sub></a><br />
+    </tr>
+  </tbody>
+</table>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
+<p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
