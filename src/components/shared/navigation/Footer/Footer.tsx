@@ -4,7 +4,7 @@ import * as S from './Footer.styles'
 
 export function Footer() {
   return (
-    <S.Container>
+    <S.Container id="contact">
       <S.Title>Siga me:</S.Title>
       <S.SocialMediaGroup>
         <Link href="https://www.linkedin.com/in/gabriel-mendonca-pereira/">

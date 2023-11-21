@@ -1,6 +1,6 @@
 import { styled } from '@/styles/config'
 
-export const Container = styled('div', {
+export const Container = styled('header', {
   width: '100%',
   height: '110px',
 

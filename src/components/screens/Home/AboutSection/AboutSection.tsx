@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer'
 export function AboutSection() {
   const { ref, inView } = useInView({ triggerOnce: true })
   return (
-    <S.WrapperCustom>
+    <S.WrapperCustom id="about">
       <S.Container>
         <S.Column
           css={{

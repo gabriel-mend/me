@@ -1,6 +1,6 @@
 import { styled } from '@/styles/config'
 
-export const Container = styled('div', {
+export const Container = styled('footer', {
   size: '100%',
   padding: '7.2rem 0 3.2rem',
 

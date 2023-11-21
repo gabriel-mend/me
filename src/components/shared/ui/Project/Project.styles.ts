@@ -15,7 +15,17 @@ export const Container = styled('div', {
   '& a': {
     fontSize: '$sm',
     textDecoration: 'underline',
-    color: '$white'
+    color: '$white',
+    transition: 'all .3s',
+
+    '&:hover': {
+      filter: 'brightness(0.6)'
+    }
+  },
+
+  '& > img': {
+    transition: 'all 3s',
+    filter: 'grayscale(1)'
   },
 
   '@bp3': {
@@ -35,7 +45,10 @@ export const Container = styled('div', {
   variants: {
     isVisible: {
       true: {
-        opacity: 1
+        opacity: 1,
+        '& > img': {
+          filter: 'grayscale(0)'
+        }
       }
     }
   }
@@ -52,7 +65,7 @@ export const Title = styled('h2', {
 })
 
 export const Description = styled('p', {
-  fontSize: '$sm',
+  fontSize: '$xs',
   mb: '$sm',
 
   '@bp3': {

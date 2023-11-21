@@ -15,6 +15,11 @@ export default class Document extends NextDocument {
             href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap"
             rel="stylesheet"
           />
+          <link
+            rel="icon"
+            type="image/x-icon"
+            href="./icons/origami-icon.svg"
+          ></link>
           <style
             id="stitches"
             dangerouslySetInnerHTML={{ __html: getCssText() }}
