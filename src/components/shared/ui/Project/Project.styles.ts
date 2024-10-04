@@ -25,7 +25,8 @@ export const Container = styled('div', {
 
   '& > img': {
     transition: 'all 3s',
-    filter: 'grayscale(1)'
+    filter: 'grayscale(1)',
+    objectFit: 'cover'
   },
 
   '@bp3': {

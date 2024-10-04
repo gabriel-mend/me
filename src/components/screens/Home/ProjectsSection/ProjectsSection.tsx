@@ -18,7 +18,31 @@ export function ProjectsSection() {
         <S.Projects>
           <Project>
             <Project.Image
-              src="https://media.licdn.com/dms/image/C4D22AQHzjSli4OoZFA/feedshare-shrink_800/0/1668806003277?e=1703116800&v=beta&t=5MPyDkvCfC4DjVDDLOv5cQwM788WsqFUV_JsK2skOtI"
+              src="https://raw.githubusercontent.com/gabriel-mend/strapi-chat-genius/HEAD/public/assets/Screens.png"
+              alt="Image"
+              width={470}
+              height={300}
+            />
+            <Project.Content>
+              <Project.Tag>frontend / backend</Project.Tag>
+              <Project.Title>strapi-chat-genius</Project.Title>
+              <Project.Description>
+                O objetivo desse projeto e colocar em prática tudo que aprendi e
+                vivenciei desde quando comecei na programação, utilizando as
+                techs mais recentes que eu tenho domínio. E que eu consiga
+                documentar todo o processo de desenvolvimento dessa aplicação.🚀
+              </Project.Description>
+              <Project.Link
+                href="https://www.npmjs.com/package/strapi-chat-genius"
+                target="_blank"
+              >
+                Veja mais
+              </Project.Link>
+            </Project.Content>
+          </Project>
+          <Project>
+            <Project.Image
+              src="https://media.licdn.com/dms/image/v2/D4D22AQFt7aLuj9EkAQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1700529498014?e=1730937600&v=beta&t=wgF5N4ZgTaoF7nBi8Y0nz2o6LoLNvS1TQ2es5_wm1pk"
               alt="Image"
               width={470}
               height={300}
@@ -42,7 +66,7 @@ export function ProjectsSection() {
           </Project>
           <Project>
             <Project.Image
-              src="https://media.licdn.com/dms/image/D4D22AQH-KmCccix0-w/feedshare-shrink_2048_1536/0/1697149953995?e=1703116800&v=beta&t=0n9n_haP0Ul0ZjmNQXjN37_hNTHLv4fkkYHSoISLbDA"
+              src="https://media.licdn.com/dms/image/v2/D4D22AQH-KmCccix0-w/feedshare-shrink_800/feedshare-shrink_800/0/1697149953922?e=1730937600&v=beta&t=dsk9CgmIxuAlPHInvv__3xSCu7hfxKDTkDNn3_t5CFU"
               alt="Image"
               width={470}
               height={300}
@@ -64,7 +88,7 @@ export function ProjectsSection() {
           </Project>
           <Project>
             <Project.Image
-              src="https://media.licdn.com/dms/image/D4D22AQGko9A5-VT5sQ/feedshare-shrink_800/0/1698069199584?e=1703116800&v=beta&t=08Ua659D7sVntZIPzptgRHykYz6eim6wba5k4FI4Vow"
+              src="https://media.licdn.com/dms/image/v2/D4D22AQHExs9GFnD0PQ/feedshare-shrink_800/feedshare-shrink_800/0/1697375087909?e=1730937600&v=beta&t=mBk6jR7MgjPIeQ9k2MeMOshkhKPajFa0J4woWa_5vMc"
               alt="Image"
               width={470}
               height={300}
